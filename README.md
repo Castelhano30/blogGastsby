@@ -5,95 +5,47 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's blog starter
+  Projeto de blog para pós graduação.
 </h1>
 
-Kick off your project with this blog boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+# Blog de Estudo com Gatsby
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+Este repositório contém o código-fonte de um projeto de estudo desenvolvido com [Gatsby](https://www.gatsbyjs.com/), uma poderosa ferramenta de geração de sites estáticos em React. O objetivo deste projeto é explorar as funcionalidades e vantagens do Gatsby ao criar um blog como experimento.
 
-## 🚀 Quick start
+## Sobre o Projeto
 
-1.  **Create a Gatsby site.**
+Este projeto foi criado como um estudo para explorar o potencial do Gatsby em projetos de sites e blogs. Escolhi criar um blog devido à sua estrutura prática para organizar conteúdo dinâmico e explorar recursos específicos do Gatsby, como o uso de arquivos Markdown para geração de rotas dinâmicas e um sistema de renderização de conteúdo estático que melhora a performance e a experiência de usuário.
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-0/#gatsby-cli)) to create a new site, specifying the blog starter.
+## Por Que Gatsby?
 
-    ```shell
-    # create a new Gatsby site using the blog starter
-    gatsby new my-blog-starter https://github.com/gatsbyjs/gatsby-starter-blog
-    ```
+O Gatsby é uma framework moderna que permite criar sites estáticos extremamente rápidos e otimizados para SEO. Alguns pontos fortes do Gatsby incluem:
 
-1.  **Start developing.**
+- **Performance**: Sites gerados com Gatsby são estáticos, o que garante alta velocidade de carregamento e performance otimizada. Cada página é pré-renderizada e servida rapidamente ao usuário, proporcionando uma experiência mais rápida e eficiente.
+- **SEO**: Gatsby cuida das melhores práticas de SEO automaticamente, além de ser facilmente integrável com plugins que ajudam a otimizar ainda mais o conteúdo.
+- **Integração com GraphQL**: O Gatsby usa GraphQL para buscar dados de qualquer fonte (como APIs REST, CMSs, e arquivos locais), o que facilita o gerenciamento e a estruturação de dados complexos.
+- **Ecossistema de Plugins**: O Gatsby oferece uma ampla gama de plugins que facilitam a adição de novas funcionalidades, como suporte para imagens otimizadas, integração com serviços de terceiros, e mais.
 
-    Navigate into your new site’s directory and start it up.
+## Por Que um Blog em Gatsby?
 
-    ```shell
-    cd my-blog-starter/
-    gatsby develop
-    ```
+Um blog é uma ótima maneira de experimentar o Gatsby por vários motivos:
 
-1.  **Open the source code and start editing!**
+- **Markdown como Fonte de Conteúdo**: O Gatsby permite o uso de arquivos Markdown para gerar páginas dinâmicas, o que simplifica o gerenciamento de conteúdo. Cada post do blog é um arquivo Markdown, facilitando a organização e edição.
+- **Rápido Tempo de Carregamento**: O Gatsby gera páginas estáticas que carregam rapidamente, melhorando a experiência do usuário.
+- **Segurança**: Como um site estático, o blog não possui back-end vulnerável a ataques, o que torna a estrutura mais segura.
+- **Facilidade de Deploy**: Com Gatsby, é fácil realizar o deploy em plataformas como Netlify, Vercel, ou GitHub Pages, o que facilita o processo de entrega contínua e automatizada.
 
-    Your site is now running at `http://localhost:8000`!
+## Tecnologias Utilizadas
 
-    Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/getting-started/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries).
+- **Gatsby**: Framework de geração de sites estáticos em React.
+- **React**: Biblioteca JavaScript para criação de interfaces de usuário.
+- **GraphQL**: Linguagem de consulta para obter dados de forma eficiente.
+- **Markdown**: Linguagem de marcação simples para estruturar e formatar o conteúdo do blog.
 
-    Open the `my-blog-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## Instalação e Execução
 
-## 🚀 Quick start (Netlify)
+Para rodar o projeto localmente:
 
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
+1. Clone o repositório.
+   ```bash
+   git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-blog)
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a typical Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-1.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
-
-1.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-1.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-1.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-1.  **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/docs/tutorial/getting-started/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[Build, Deploy, and Host On Netlify](https://netlify.com)
-
-The fastest way to combine your favorite tools and APIs to build the fastest sites, stores, and apps for the web. And also the best place to build, deploy, and host your Gatsby sites.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
